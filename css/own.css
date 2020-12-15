@@ -1,0 +1,263 @@
+a {
+  text-decoration: none!important;
+}
+.display-menu {
+  left: 0px!important;
+}
+
+
+.header-pl .h_logo img {
+  max-width: 125px;
+  padding-top: 10px;
+}
+.header-pl .h_logo {
+  overflow: inherit;
+}
+
+.header-pl .h_right {
+    width: 40%;
+    display: block;
+    float: right;
+    margin-top: 21px;
+    padding-top: 10px;
+}
+
+.header-pl .h_delivered {
+  width: 40%;
+}
+
+.header-pl .h_logo {
+  width: 20%;
+}
+
+.h_right p {
+  font-style: italic;
+  font-weight: 700;
+  text-align: right;
+}
+
+.h_menu {
+ background-image: linear-gradient(180deg, #2c2c98, #8080f7);
+}
+
+.h_menu .container .h_menu__main > li:hover a {
+  color: white;
+}
+
+.h_menu .container .h_menu__main > li a {
+  color: white;
+}
+
+.h_menu .container .h_menu__main > li.active a {
+  color: white;
+}
+
+#dam-vi-ca-phe-rang-xay {
+  margin-top: 30px;
+}
+
+.title-about {
+  font-size: 18px!important;
+  color: #000096;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.title-about img {
+  width: 40px;
+}
+
+.product-item .item-name {
+  font-size: 17px;
+  text-align: center;
+  color: #000096;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.product-item .item-price {
+  font-size: 17px;
+  text-align: center;
+  color: pink;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.item-order {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.item-order div {
+  width: 50%;
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+
+.img-shine-2 {
+  display: block;
+  cursor: pointer;
+}
+
+.img-shine-2:before {
+  background: rgba(255,255,255,0.7) none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 0;
+  opacity: 1;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  position: absolute;
+  right: 0;
+  width: 0;
+}
+
+.img-shine-2:hover:before, .img-shine-2:hover:after {
+  height: 100%;
+  opacity: 0;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  transition-duration: 1s;
+  width: 100%;
+}
+
+.img-shine-2:after {
+  background: rgba(255,255,255,0.7) none repeat scroll 0 0;
+  content: "";
+  height: 0;
+  left: 0;
+  opacity: 1;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+
+.product-item{
+  margin-top: 30px;
+}
+
+.promotion {
+  margin-top: 50px;
+}
+
+.map {
+  margin-top: 50px;
+}
+
+#footer {
+  background: #3838a5;
+  padding: 30px 0px;
+  background-image: url('../img/footer.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-bottom {
+  height: 70px;
+  line-height: 70px;
+  background-color: #070a6d;
+}
+
+.footer-bottom p {
+  color: white;
+  font-size: 16px;
+}
+
+.title-footer {
+  text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.f-copyright p {
+  color: white;
+}
+
+.item_ft i{width: 15px;}
+     
+.item_ft {
+    color: white!important;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.item_ft a {
+  color: white!important;
+  margin-left: 10px;
+}
+
+.f-bot .f-social li .btn-icon {
+  width: 30px;
+  color: white;
+  background: transparent;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1199px) {
+.header-pl.background-primary {
+    background-color: white;
+    color: #fff;
+}
+
+  .h_menu__btn span {
+    background-color: black!important;
+  }
+
+  .header-pl .h_logo img {
+      padding-top: 0px;
+  }
+
+  .h_menu .container .h_menu__main > li:hover a {
+    color: black;
+  }
+  
+  .h_menu .container .h_menu__main > li a {
+    color: black;
+  }
+  
+  .h_menu .container .h_menu__main > li.active a {
+    color: black;
+  }
+
+  .header-pl.background-primary + .home {
+    margin-top: 80px;
+  }
+
+.item-order div {
+    width: 100%;
+    text-align: left!important;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .product .col-xs-6 {
+    width: 100%;
+  }
+
+  .footer-bottom {
+      height: auto;
+      line-height: 30px;
+  }
+
+  .footer-bottom p {
+    font-size: 14px;
+    margin-bottom: 0px;
+    text-align: center!important;
+}
+
+  
+}
